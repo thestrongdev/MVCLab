@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model MVCLab.Models.GasStation.MileageFormResultsViewModel
+
+<h1>Remaining Range Given Current Gallons Remaining in Tank: </h1>
+<h2>@Model.remainingMiles</h2>
+
+<h1>Do you have enough gas?</h1>
+
+@{
+    if (Model.enoughGas)
+    {
+        <h2 style="color: green">@Model.userNotification</h2>
+
+    }
+    else
+    {
+        <h2 style="color: red">@Model.userNotification</h2>
+        }
+
+    }
+
+    @*<h2> @(Model.Gallons*Model.Mileage)</h2>*@

@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model MVCLab.Models.GasStation.MileageFormResultsViewModel
+
+<form asp-controller="GasStation" asp-action="MileageFormResults" method="post">
+
+    <label asp-for="Mileage"> Mileage(MPG): </label>
+    <input asp-for="Mileage" />
+
+    <label asp-for="Gallons">Gallons in Tank: </label>
+    <input asp-for="Gallons" />
+
+    <label asp-for="TripDistance">Trip Distance: </label>
+    <input asp-for="TripDistance" />
+
+    <button>Submit</button>
+
+</form>
