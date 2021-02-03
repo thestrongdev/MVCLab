@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model MVCLab.Models.Calculator.OperationFormResultViewModel
+@*Addition FORM*@
+
+<h1>WELCOME TO THE CALCULATOR</h1>
+
+<div>
+    <h2>Addition Form: Please input two numbers to sum below.</h2>
+    <h3 style="color: blue"><em>Both values cannot be zero!</em></h3>
+
+    <form asp-controller="Calculator" asp-action="OperationFormResult" method="post">
+
+        <label asp-for="AddModel.X"> Value A: </label>
+        <input asp-for="AddModel.X" />
+
+        <label asp-for="AddModel.Y">Value B: </label>
+        <input asp-for="AddModel.Y" />
+
+        <button>Submit</button>
+
+    </form>
+</div>
+
+
+@*Division Form*@
+
+<div>
+    <h2>Division Form: Please input a divisor and divident to calculate a quotient.</h2>
+    <h3 style="color: blue"><em>Neither values cannot be zero!</em></h3>
+    <form asp-controller="Calculator" asp-action="OperationFormResult" method="post">
+
+        <label asp-for="DivideModel.Dividend">Dividend: </label>
+        <input asp-for="DivideModel.Dividend" />
+
+        <label asp-for="DivideModel.Divisor">Divisor: </label>
+        <input asp-for="DivideModel.Divisor" />
+
+        <button>Submit</button>
+
+    </form>
+</div>

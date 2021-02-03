@@ -37,3 +37,5 @@ C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\MVCLab.genrunt
 C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\MVCLab.csproj.CopyComplete
 C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\Razor\Views\GasStation\MileageForm.cshtml.g.cs
 C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\Razor\Views\GasStation\MileageFormResults.cshtml.g.cs
+C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\Razor\Views\Calculator\OperationForm.cshtml.g.cs
+C:\Users\goods\source\repos\MVCLab\MVCLab\obj\Debug\netcoreapp3.1\Razor\Views\Calculator\OperationFormResult.cshtml.g.cs
